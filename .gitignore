@@ -1,0 +1,16 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local secrets and editor files
+.env
+.idea/
+.vscode/
+
+# User-generated outputs/models (source sample images stay tracked)
+*/outputs/*
+!*/outputs/.gitkeep
